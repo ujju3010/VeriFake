@@ -32,3 +32,11 @@ python run_image_detection.py      # For deepfakes
 
 ## AI Agents / ML Track
 This project fits perfectly into the AI Agents / ML track, showcasing the use of intelligent, explainable ML models for solving real-world problems like misinformation and media fraud. It combines multiple AI domains to function as a powerful agent capable of understanding and evaluating digital content.
+
+## Team
+BRICS
+
+By:- Ujjawal Gupta
+Collaborators :- Krish Goyal , Angad Singh Negi
+
+Built for HackOnHills6.O
