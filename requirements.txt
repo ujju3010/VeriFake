@@ -1,0 +1,8 @@
+flask
+numpy
+opencv-python
+Pillow
+scikit-learn
+torch
+transformers
+werkzeug

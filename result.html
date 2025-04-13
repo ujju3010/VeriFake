@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fake News Detection Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+            padding: 50px;
+        }
+        .result-container {
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #ccc;
+            display: inline-block;
+        }
+        h1 {
+            color: #444;
+        }
+        p {
+            font-size: 18px;
+        }
+        .label {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .confidence {
+            color: #5cb85c;
+            font-size: 20px;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            color: #fff;
+            background: #5cb85c;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        a:hover {
+            background: #4cae4c;
+        }
+    </style>
+</head>
+<body>
+<div class="result-container">
+    <h1>Fake News Detection Result</h1>
+    <p class="label">Prediction: <strong>{{ label }}</strong></p>
+    <p class="confidence">Confidence: <strong>{{ confidence * 100 }}%</strong></p>
+    <a href="/">Analyze Another Article</a>
+</div>
+</body>
+</html>
+
+
